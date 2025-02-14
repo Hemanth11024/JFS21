@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gradient-box{
+            width: 300px;
+            height: 200px;
+            background: linear-gradient(to bottom,orange,white,blue,green);
+        }
+        .gradient-boxx{
+            width: 300px;
+            height: 200px;
+            background: radial-gradient(circle,orange,white,blue,green);
+        }
+        .gradient-boxxx{
+            width: 300px;
+            height: 200px;
+            background: conic-gradient(orange,white,blue,green);
+        }
+        .gradient-boxxxx{
+           width: 300px;
+           height: 200px;
+           background-color: aqua;
+           transition: background-color 5s ease;
+        }
+        .gradient-boxxxx:hover{
+            background-color: brown;
+        }
+        .gradient-boxxxxx{
+           width: 300px;
+           height: 200px;
+           background-color: rgb(0, 255, 128);
+           border-color:20px blueviolet;
+           transition: background-color 5s ease ,border-radius 5s ease;
+        }
+        .gradient-boxxxxx:hover{
+            background-color:chocolate;
+            border-radius: 30px;
+        }
+        .gradient-boxxxxxx{
+           width: 300px;
+           height: 200px;
+           background-color: rgb(255, 0, 200);
+           border-color:20px blueviolet;
+           transition: background-color 5s ease ,border-radius 5s ease;
+        }
+        .gradient-boxxxxxx:hover{
+            background-color:chocolate;
+            transform: scale(2.5) rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="gradient-box"></div>
+    <div class="gradient-boxx"></div>
+    <div class="gradient-boxxx"></div>
+    <div class="gradient-boxxxx"></div>
+    <div class="gradient-boxxxxx"></div>
+    <div class="gradient-boxxxxxx"></div>
+</body>
+</html>
